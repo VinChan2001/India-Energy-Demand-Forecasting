@@ -15,6 +15,9 @@ __pycache__/
 *.npz
 *.pkl
 *.joblib
+# except the cleaned datasets needed to reproduce results
+!data_india_ENRG*.xlsx
+!actual_jan1_2025.xlsx
 
 # Reports / documents not intended for source control
 *.pdf
